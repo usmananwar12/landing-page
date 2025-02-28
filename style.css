@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     font-family: 'Lora', serif;
+    padding-top: 70px; 
 }
 h1, h2 {
     font-family: 'Playfair Display', serif;
@@ -11,7 +12,22 @@ h1, h2 {
 main {
     flex: 1;
 }
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1050;
+    background-color: #002147;
+    box-shadow: 0px 8px 10px rgba(90, 89, 89, 0.2);
+}
 
+.navbar a {
+    color: white !important;
+}
+#navbarNav a:hover {
+    color: #FFD700 !important;
+}
 nav img{
     width: 50px;
     height: 50px;
@@ -29,7 +45,8 @@ footer .container a {
 footer .container a:hover {
     color: #FFD700; 
 }
-/* Services Section */
+
+
 .services-section {
     background-color: #0d0f17;
     padding: 80px 0;
@@ -84,4 +101,12 @@ footer .container a:hover {
 .service-card:hover {
     transform: translateY(-5px);
     box-shadow: 0px 6px 15px rgba(247, 197, 82, 0.3);
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.7); 
+}
+
+.navbar-toggler-icon {
+    filter: brightness(0) invert(1); 
 }

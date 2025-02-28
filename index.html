@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg" style="background-color: #002147;">
             <div class="container">
                 <img src="logo.png" alt="Al Zahid Madni Travels" width="50" height="50">
                 <a class="navbar-brand" href="#">Al Zahid Madni Travels</a>
@@ -16,19 +16,19 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Our Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
-                    </ul>
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Our Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                    </ul>                    
                 </div>
             </div>
         </nav>
 
         <!-- Main Content -->
-        <main class="container mt-5">
-            <div class="container mt-5">
+        <main id="home"class="container mt-5">
+            <div class="container mt-5"><br><br>
                 <div class="row align-items-center">
-                    <!-- Left Side - Login Form -->
+                    <!-- Login Form -->
                     <div class="col-md-6 d-flex align-items-center justify-content-center text-white">
                         <div class="w-100" style="max-width: 350px;">
                             <h2 class="text-center fw-bold mb-4">Welcome Back!</h2>
@@ -54,23 +54,21 @@
                     </div>
 
             
-                    <!-- Right Side - Image -->
+                    <!-- Right Side -->
                     <div class="col-md-6 d-flex align-items-center justify-content-center">
                         <img src="pic.png" alt="Travel Illustration" class="img-fluid" style="max-width: 80%;" loading="lazy">
                     </div>
                 </div>
             </div>
             <!-- Our Services Section -->
-            <section class="services-section py-5 text-white text-center">
+            <section id="services" class="services-section text-white text-center">
                 <div class="container">
-                    <!-- Heading -->
                     <div class="position-relative text-center mb-5">
                         <h2 class="section-title">OUR SERVICES</h2>
                         <div class="title-underline"></div>
                         <h1 class="section-title-bg">OUR SERVICES</h1>
                     </div>
 
-                    <!-- Services Grid -->
                     <div class="row">
                         <div class="col-md-4">
                             <div class="service-card">
@@ -98,8 +96,8 @@
             </section>
 
                     <!-- About Us Section -->
-        <section class="about-section py-5 text-white text-center">
-            <div class="container">
+        <section id="about" class="about-section text-white text-center">
+            <div class="container"><br><br><br><br>
                 <!-- Heading -->
                 <div class="position-relative text-center mb-5">
                     <h2 class="section-title">ABOUT US</h2>
@@ -107,9 +105,7 @@
                     <h1 class="section-title-bg">ABOUT US</h1>
                 </div>
 
-                <!-- About Us Content -->
                 <div class="row align-items-center">
-                    <!-- Left Side - Text Content -->
                     <div class="col-md-6">
                         <h3 class="fw-bold">Who We Are</h3>
                         <p>
@@ -123,7 +119,6 @@
                         </p>
                     </div>
 
-                    <!-- Right Side - Image -->
                     <div class="col-md-6 d-flex align-items-center justify-content-center">
                         <img src="about-us.png" alt="About Al Zahid Madni Travels" class="img-fluid rounded" style="max-width: 80%;" loading="lazy">
                     </div>
@@ -135,7 +130,7 @@
         </main>
 
         <!-- Footer -->
-        <footer class="bg-dark text-white text-center p-3 mt-auto">
+        <footer class="text-white text-center p-3 mt-auto" style="background-color: #002147;">
             <p>&copy; 2025 Al Zahid Madni Travels. All Rights Reserved.</p>
             <p>Email: info@alzahidmadni.com | Phone: 0300-9666476</p>
             <div class="container">
@@ -148,7 +143,6 @@
             </div>
         </footer>  
 
-        <!-- Bootstrap JS -->
         <script src="bootstrap/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     </body>  
 </html>
