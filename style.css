@@ -17,3 +17,14 @@ nav img{
     margin-top: 10px;
     margin-right: 10px;
 }
+
+footer .container a {
+    color: white;
+    font-size: 24px;
+    margin: 0 10px; 
+    transition: color 0.4s ease-in-out;
+}
+
+footer .container a:hover {
+    color: #FFD700; 
+}
