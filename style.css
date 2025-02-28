@@ -79,7 +79,7 @@ footer .container a:hover {
     text-transform: uppercase;
 }
 
-/* Service Cards */
+
 .service-card {
     background: #1a1c23;
     padding: 30px;
@@ -110,7 +110,7 @@ footer .container a:hover {
 .navbar-toggler-icon {
     filter: brightness(0) invert(1); 
 }
-/* Floating Chat Button */
+
 .chat-btn {
     position: fixed;
     bottom: 20px;
@@ -131,7 +131,6 @@ footer .container a:hover {
     background-color: #005bb5;
 }
 
-/* Chat Popup */
 .chat-popup {
     display: none;
     position: fixed;
@@ -176,7 +175,7 @@ footer .container a:hover {
     border-radius: 5px;
     padding: 5px;
 }
-/* Floating Chat Button */
+
 .chat-btn {
     position: fixed;
     bottom: 20px;
@@ -197,7 +196,6 @@ footer .container a:hover {
     background-color: #005bb5;
 }
 
-/* Chat Popup */
 .chat-popup {
     display: none;
     position: fixed;
@@ -211,7 +209,6 @@ footer .container a:hover {
     overflow: hidden;
 }
 
-/* Chat Header */
 .chat-header {
     background: #002147;
     color: white;
@@ -233,7 +230,6 @@ footer .container a:hover {
     cursor: pointer;
 }
 
-/* Chat Body */
 .chat-body {
     padding: 10px;
 }
