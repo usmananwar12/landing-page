@@ -244,3 +244,7 @@ footer .container a:hover {
     border-radius: 5px;
     padding: 5px;
 }
+
+#feedback {
+    padding: 80px 20px;
+}

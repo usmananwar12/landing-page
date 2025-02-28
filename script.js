@@ -11,3 +11,10 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("feedbackForm").addEventListener("submit", function (event) {
+        event.preventDefault(); // Prevents the page from refreshing
+        alert("Thank you for your feedback! We appreciate your time.");
+        this.reset(); // Clears the form after submission
+    });
+});
