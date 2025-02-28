@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Lora', serif;
+}
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+}
+main {
+    flex: 1;
+}
+
+nav img{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
