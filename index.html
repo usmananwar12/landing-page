@@ -5,7 +5,9 @@
         <link rel="stylesheet" href="bootstrap/node_modules/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <script src="script.js"></script>
     </head>
+
     <body>
         <nav class="navbar navbar-expand-lg" style="background-color: #002147;">
             <div class="container">
@@ -142,6 +144,24 @@
                 </a>
             </div>
         </footer>  
+        <!-- Floating Chat Button -->
+        <button id="chatBtn"  onclick="window.alert(jello)" class="chat-btn">
+            <i class="fas fa-comment-alt"></i>
+        </button>
+
+        <!-- Chat Popup -->
+        <div id="chatPopup" onclick="window.alert(jello)" class="chat-popup">
+            <div class="chat-header">
+                <h5>Chat with Us</h5>
+                <button id="closeChat" class="close-chat">&times;</button>
+            </div>
+            <div class="chat-body">
+                <p>Welcome! How can we assist you?</p>
+                <textarea id="chatInput" class="form-control" rows="3" placeholder="Type your message..."></textarea>
+                <button id="sendChat" class="btn btn-primary w-100 mt-2">Send</button>
+            </div>
+        </div>
+
 
         <script src="bootstrap/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     </body>  
