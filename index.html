@@ -17,18 +17,124 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Our Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
 
+        <!-- Main Content -->
         <main class="container mt-5">
-            <h1>Welcome to Al Zahid Madni Travels</h1>
-            <p>Your trusted partner for Umrah and Hajj travel.</p>
+            <div class="container mt-5">
+                <div class="row align-items-center">
+                    <!-- Left Side - Login Form -->
+                    <div class="col-md-6 d-flex align-items-center justify-content-center text-white">
+                        <div class="w-100" style="max-width: 350px;">
+                            <h2 class="text-center fw-bold mb-4">Welcome Back!</h2>
+                            <p class="text-center">Log in to manage your bookings and explore our travel services.</p>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="username" class="form-label fw-bold">Username</label>
+                                    <input type="text" class="form-control border-0 border-bottom" id="username" placeholder="">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="password" class="form-label fw-bold">Password</label>
+                                    <input type="password" class="form-control border-0 border-bottom" id="password" placeholder="">
+                                </div>
+                                <button type="submit" class="btn w-100 text-white fw-bold" style="background-color: #0066cc;">LOG IN</button>
+                                <div class="text-center mt-3">
+                                    <a href="#" class="text-decoration-none text-primary">Forgot your password?</a>
+                                </div>
+                                <div class="text-center mt-2">
+                                    <p>Don't have an account? <a href="#" class="text-primary">Sign Up</a></p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+            
+                    <!-- Right Side - Image -->
+                    <div class="col-md-6 d-flex align-items-center justify-content-center">
+                        <img src="pic.png" alt="Travel Illustration" class="img-fluid" style="max-width: 80%;" loading="lazy">
+                    </div>
+                </div>
+            </div>
+            <!-- Our Services Section -->
+            <section class="services-section py-5 text-white text-center">
+                <div class="container">
+                    <!-- Heading -->
+                    <div class="position-relative text-center mb-5">
+                        <h2 class="section-title">OUR SERVICES</h2>
+                        <div class="title-underline"></div>
+                        <h1 class="section-title-bg">OUR SERVICES</h1>
+                    </div>
+
+                    <!-- Services Grid -->
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="service-card">
+                                <i class="fas fa-plane fa-3x"></i>
+                                <h3>Airline Ticketing</h3>
+                                <p>Book affordable flights with top airlines worldwide.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="service-card">
+                                <i class="fas fa-mosque fa-3x"></i>
+                                <h3>Hajj & Umrah Packages</h3>
+                                <p>Exclusive packages with guided tours for a stress-free pilgrimage.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="service-card">
+                                <i class="fas fa-hotel fa-3x"></i>
+                                <h3>Hotel Bookings</h3>
+                                <p>Comfortable accommodations near the holy sites.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+                    <!-- About Us Section -->
+        <section class="about-section py-5 text-white text-center">
+            <div class="container">
+                <!-- Heading -->
+                <div class="position-relative text-center mb-5">
+                    <h2 class="section-title">ABOUT US</h2>
+                    <div class="title-underline"></div>
+                    <h1 class="section-title-bg">ABOUT US</h1>
+                </div>
+
+                <!-- About Us Content -->
+                <div class="row align-items-center">
+                    <!-- Left Side - Text Content -->
+                    <div class="col-md-6">
+                        <h3 class="fw-bold">Who We Are</h3>
+                        <p>
+                            Al Zahid Madni Travels has been providing exceptional travel services since 2006. 
+                            Specializing in **Hajj, Umrah, and airline ticketing**, we ensure a smooth and hassle-free experience for our customers.  
+                        </p>
+                        <h3 class="fw-bold mt-4">Our Mission</h3>
+                        <p>
+                            Our mission is to offer **affordable and comfortable travel solutions** for pilgrims and travelers worldwide. 
+                            With years of experience, we strive to make your journey as seamless as possible.
+                        </p>
+                    </div>
+
+                    <!-- Right Side - Image -->
+                    <div class="col-md-6 d-flex align-items-center justify-content-center">
+                        <img src="about-us.png" alt="About Al Zahid Madni Travels" class="img-fluid rounded" style="max-width: 80%;" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
         </main>
 
+        <!-- Footer -->
         <footer class="bg-dark text-white text-center p-3 mt-auto">
             <p>&copy; 2025 Al Zahid Madni Travels. All Rights Reserved.</p>
             <p>Email: info@alzahidmadni.com | Phone: 0300-9666476</p>
@@ -42,7 +148,7 @@
             </div>
         </footer>  
 
+        <!-- Bootstrap JS -->
         <script src="bootstrap/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-
     </body>  
 </html>
